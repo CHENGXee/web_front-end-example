@@ -58,7 +58,6 @@ body {
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
 }
-
 /* 冒號的意思是選擇虛擬類別 */
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
@@ -66,5 +65,21 @@ body {
     /* 外框 */
     border: 1px solid #51515150;
     /* 陰影 */
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(255, 0, 0, 0.2);
+}
+.wrapper .btn1{
+    background: #da4c4c;
+    color: #ffffff;
+}
+.wrapper .btn2{
+    background: #e78822;
+    color: #ffffff;
+}
+.wrapper .btn3{
+    background: #e0e722;
+    color: #ffffff;
+}
+.wrapper .btn4{
+    background: #60e722;
+    color: #ffffff;
 }
